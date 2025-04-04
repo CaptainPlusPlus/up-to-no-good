@@ -3,19 +3,29 @@
   "displayName": "i am a bad friend",
   "description": "Ruin someone's day and repo with a single command!",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CaptainPlusPlus/up-to-no-good.git"
+  },
   "engines": {
     "vscode": "^1.99.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "i-am-a-bad-friend.helloWorld",
-        "title": "Hello World"
+        "command": "i-am-a-bad-friend.stupify",
+        "title": "Convert Semicolons to Greek Question Marks"
+      },
+      {
+        "command": "i-am-a-bad-friend.repero",
+        "title": "Convert Greek Question Marks to Semicolons"
       }
     ]
   },
